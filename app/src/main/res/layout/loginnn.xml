@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:hint="username"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/etParola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:hint="parola"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Giriş yapınız"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</LinearLayout>

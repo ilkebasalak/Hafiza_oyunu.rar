@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2">
+
+    <TextView
+        android:id="@+id/tvEndGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:marqueeRepeatLimit="1"
+        android:text="OYUN BİTTİ"
+        android:textColor="@color/renk7"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_below="@+id/tvEndGame"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/btnRepeat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:contentDescription="tekrar oyna"
+            android:onClick="tekrarOyna"
+            android:src="@drawable/ic_play_arrow" />
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:onClick="paylas"
+            android:src="@drawable/ic_share" />
+    </LinearLayout>
+</RelativeLayout>

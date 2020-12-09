@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dicle.dicle.hafiza_oyunu.islemoyun">
+
+    <LinearLayout
+        android:id="@+id/llIslem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/tvDogruSayisi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/btnSayiBir"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.28"
+            android:text="Button"
+
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/tvIslemType"
+            android:layout_width="93dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/aa"
+            android:text="islem türü"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnSayiIki"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/asd"
+            android:text="Button"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgButtonDogru"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:onClick="imgBtndogruCevap"
+        app:srcCompat="@drawable/ic_check"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvDogruSayisi"
+        android:layout_alignEnd="@+id/tvDogruSayisi"
+        android:layout_marginBottom="72dp" />
+
+    <ImageView
+        android:id="@+id/imgButtonYanlis"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:onClick="imgBtnYanlisCevap"
+        app:srcCompat="@drawable/ic_highlight_off"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_alignTop="@+id/imgButtonDogru"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/tvCevap"
+        android:layout_toStartOf="@+id/tvCevap" />
+
+    <TextView
+        android:id="@+id/tvDogruSayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="27dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvSayac"
+        android:text="---"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvDogruSayisi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="7dp" />
+
+    <Button
+        android:id="@+id/tvCevap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llIslem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/aa"
+        android:text="Button"
+        android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>

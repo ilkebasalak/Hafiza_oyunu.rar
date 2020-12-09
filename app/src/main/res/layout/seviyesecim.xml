@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSeviye1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/renkKolay"
+        android:text="seviye 1"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnSeviye2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/renkOrta"
+        android:text="seviye2"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnSeviye3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/renkZor"
+        android:text="Seviye 3"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>

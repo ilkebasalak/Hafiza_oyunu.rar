@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da0202</color>
+    <color name="colorPrimaryDark">#009dff</color>
+    <color name="colorAccent">#0062ff</color>
+    <color name="matematikselsecimarkapla">#b5a513</color>
+    <color name="selectmat">#ff9800</color>
+    <color name="SelectGorsel">#00d1dc</color>
+    <color name="selectHakkinda">#f57c00</color>
+    <color name="x">#00695C</color>
+    <color name="matsecimarka">#627780</color>
+    <color name="gorselsecim">#8c8c8c</color>
+    <color name="renk1">#ff5500</color>
+    <color name="renk2">#0e4f76</color>
+    <color name="renk3">#395923</color>
+    <color name="renk4">#3a3a14</color>
+    <color name="renk5">#261510</color>
+    <color name="renk6">#2b373d</color>
+    <color name="renk7">#2e4618</color>
+    <color name="renk8">#243079</color>
+    <color name="renkKolay">#bcd60000</color>
+    <color name="renkOrta">#c10057ba</color>
+    <color name="renkZor">#2bba0c</color>
+    <color name="selectedepageBackground">#40689e</color>
+
+
+</resources>

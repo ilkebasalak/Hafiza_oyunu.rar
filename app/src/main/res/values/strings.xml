@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">diclebitirmeMatematik</string>
+    <string name="gorsel_hafiza">Görsel Hafıza</string>
+    <string name="MatematikselHafiza">Matematiksel Hafıza</string>
+    <string name="Hakkinda">Oyun Hakkında</string>
+    <string name="kolayText">Kolay Seviye</string>
+    <string name="zorText">Zor Seviye</string>
+    <string name="ortaText">Orta Seviye</string>
+</resources>
